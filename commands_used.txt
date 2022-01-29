@@ -1,0 +1,27 @@
+
+Commands used (windows cmd commands)
+
+Creating and Activating Virtual Environment 
+--------------------------------------------
+Install virtualenv => python -m pip install virtualenv
+Create a virtual environment => python -m virtualenv env_name
+Activate created env => .\env_name\Scripts\activate.bat
+
+-> Virtual Environment Created and Activated Successfully
+
+Installing Required Packages and Libraries in our Virtual Environment
+---------------------------------------------------------------------
+Installing libraries => pip install lib1 lib2 lib3 
+Required Libraries => flask, mysql-connector-python (for operations with mysql db), csv (to work with csv files), pandas
+
+
+Directory Structure
+-------------------
+- root directory, the main directory has main flask app file (and some other required files)
+    - templates directory has the html file(s)
+    - static directory has static assets and files like images, css and js files
+
+
+Run the flask app locally
+-------------------------
+-> python main_app.py will start the flask server
